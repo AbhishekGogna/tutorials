@@ -1,5 +1,5 @@
-c_data <- read.table("dump_deepak_1.txt", header = T)
-g_data <- read.table("dump_deepak_2.txt", header = T)
+c_data <- read.table("chr_to_numeriac_coding_snp_chip_1.txt", header = T)
+g_data <- read.table("chr_to_numeriac_coding_snp_chip_2.txt", header = T)
 
 recode_markers<-function(count_data, genodata, n_ind = 19){
   output<-matrix(0 ,dim(count_data)[1], n_ind+1)
